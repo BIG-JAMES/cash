@@ -37,45 +37,6 @@ namespace cash
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void computer_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void calculator_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -91,11 +52,6 @@ namespace cash
             {
                 label14.Text = $"change: error";
             }
-        }
-
-        private void label14_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void calculate_Click(object sender, EventArgs e)
@@ -129,22 +85,6 @@ namespace cash
                 label12.Text = $"error";
             }
         }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void backg_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private async void button2_Click(object sender, EventArgs e)
         {
             SoundPlayer player = new SoundPlayer(Properties.Resources.printer_106935);
@@ -233,11 +173,6 @@ namespace cash
 
             backg.Text += $"\nscan to enter half off with all your purchases";
 
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
 
         }
     }

@@ -73,7 +73,7 @@
             this.mouse.Size = new System.Drawing.Size(38, 13);
             this.mouse.TabIndex = 1;
             this.mouse.Text = "mouse";
-            this.mouse.Click += new System.EventHandler(this.label1_Click);
+            //this.mouse.Click += new System.EventHandler(this.label1_Click);
             // 
             // console
             // 
@@ -86,7 +86,7 @@
             this.console.Size = new System.Drawing.Size(47, 13);
             this.console.TabIndex = 2;
             this.console.Text = "console ";
-            this.console.Click += new System.EventHandler(this.label2_Click);
+            //this.console.Click += new System.EventHandler(this.label2_Click);
             // 
             // computer
             // 
@@ -99,7 +99,7 @@
             this.computer.Size = new System.Drawing.Size(51, 13);
             this.computer.TabIndex = 3;
             this.computer.Text = "computer";
-            this.computer.Click += new System.EventHandler(this.computer_Click);
+            //this.computer.Click += new System.EventHandler(this.computer_Click);
             // 
             // baseprice1
             // 
@@ -112,7 +112,7 @@
             this.baseprice1.Size = new System.Drawing.Size(141, 13);
             this.baseprice1.TabIndex = 4;
             this.baseprice1.Text = "base price for console: $600";
-            this.baseprice1.Click += new System.EventHandler(this.label1_Click_1);
+            //this.baseprice1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // backg
             // 
@@ -122,7 +122,7 @@
             this.backg.Size = new System.Drawing.Size(341, 333);
             this.backg.TabIndex = 5;
             this.backg.Text = "        ";
-            this.backg.Click += new System.EventHandler(this.backg_Click);
+            //this.backg.Click += new System.EventHandler(this.backg_Click);
             // 
             // label1
             // 
@@ -187,6 +187,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(67, 20);
             this.textBox1.TabIndex = 11;
+            //this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -292,7 +293,7 @@
             this.label10.Size = new System.Drawing.Size(27, 13);
             this.label10.TabIndex = 21;
             this.label10.Text = "total";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
+            //this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label11
             // 
@@ -305,7 +306,7 @@
             this.label11.Size = new System.Drawing.Size(40, 13);
             this.label11.TabIndex = 22;
             this.label11.Text = "           ";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
+            //this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label12
             // 
@@ -349,7 +350,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(67, 20);
             this.textBox4.TabIndex = 26;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            //this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // button1
             // 
@@ -372,7 +373,7 @@
             this.label14.Size = new System.Drawing.Size(46, 13);
             this.label14.TabIndex = 28;
             this.label14.Text = "change:";
-            this.label14.Click += new System.EventHandler(this.label14_Click);
+            //this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // button2
             // 
@@ -432,7 +433,7 @@
             this.Controls.Add(this.mouse);
             this.Name = "calculator";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.calculator_Load);
+            //this.Load += new System.EventHandler(this.calculator_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
