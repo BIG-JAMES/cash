@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
+using System.Media;
 
 namespace cash
 {
@@ -101,6 +102,9 @@ namespace cash
         {
             try
             {
+                SoundPlayer player = new SoundPlayer(Properties.Resources.Cash_Register__Kaching____Sound_Effect__HD_);
+                player.Play();
+
                 numOfmouse = Convert.ToInt32(textBox1.Text);
                 numOfconsole = Convert.ToInt32(textBox2.Text);
                 numOfcomputer = Convert.ToInt32(textBox3.Text);
@@ -143,6 +147,9 @@ namespace cash
 
         private async void button2_Click(object sender, EventArgs e)
         {
+            SoundPlayer player = new SoundPlayer(Properties.Resources.printer_106935);
+            player.Play();
+
             backg.Text = $"\n                                                  EB Games";
 
             Refresh();
