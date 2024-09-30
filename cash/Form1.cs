@@ -13,7 +13,7 @@ namespace cash
 {
     public partial class calculator : Form
     {
-
+        //public variables
         double mousePrice = 7.69;
         int numOfmouse = 0;
         double consolePrice = 600;
@@ -42,6 +42,7 @@ namespace cash
         {
             try
             {
+                //change back
                 tendPay = Convert.ToInt32(textBox4.Text);
 
                 endpayment = tendPay - totalPrice;
@@ -50,6 +51,7 @@ namespace cash
             }
             catch
             {
+                // error output
                 label14.Text = $"change: error";
             }
         }
@@ -58,8 +60,11 @@ namespace cash
         {
             try
             {
+                //Sound Player
                 SoundPlayer player = new SoundPlayer(Properties.Resources.Cash_Register__Kaching____Sound_Effect__HD_);
                 player.Play();
+
+                //Math
 
                 numOfmouse = Convert.ToInt32(textBox1.Text);
                 numOfconsole = Convert.ToInt32(textBox2.Text);
@@ -73,6 +78,8 @@ namespace cash
                 taxAmount = taxRate * subtotal;
                 totalPrice = taxAmount + subtotal;
 
+                //math output
+
                 label11.Text = $"{subtotal.ToString("C")}";
                 label13.Text = $"{taxAmount.ToString("C")}";
                 label12.Text = $"{totalPrice.ToString("C")}";
@@ -80,6 +87,7 @@ namespace cash
             }
             catch
             {
+                //Error out put
                 label11.Text = $"error";
                 label13.Text = $"error";
                 label12.Text = $"error";
@@ -87,6 +95,11 @@ namespace cash
         }
         private async void button2_Click(object sender, EventArgs e)
         {
+
+            //receipt
+
+            button2.Visible = false;
+
             SoundPlayer player = new SoundPlayer(Properties.Resources.printer_106935);
             player.Play();
 
@@ -173,7 +186,9 @@ namespace cash
 
             backg.Text += $"\nscan to enter half off with all your purchases";
 
-
+            Refresh();
+            Thread.Sleep(1000);
+            button2.Visible = true;
         }
     }
 }

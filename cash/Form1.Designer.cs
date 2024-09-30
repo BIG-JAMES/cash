@@ -59,6 +59,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,7 +74,6 @@
             this.mouse.Size = new System.Drawing.Size(38, 13);
             this.mouse.TabIndex = 1;
             this.mouse.Text = "mouse";
-            //this.mouse.Click += new System.EventHandler(this.label1_Click);
             // 
             // console
             // 
@@ -86,7 +86,6 @@
             this.console.Size = new System.Drawing.Size(47, 13);
             this.console.TabIndex = 2;
             this.console.Text = "console ";
-            //this.console.Click += new System.EventHandler(this.label2_Click);
             // 
             // computer
             // 
@@ -99,7 +98,6 @@
             this.computer.Size = new System.Drawing.Size(51, 13);
             this.computer.TabIndex = 3;
             this.computer.Text = "computer";
-            //this.computer.Click += new System.EventHandler(this.computer_Click);
             // 
             // baseprice1
             // 
@@ -112,17 +110,15 @@
             this.baseprice1.Size = new System.Drawing.Size(141, 13);
             this.baseprice1.TabIndex = 4;
             this.baseprice1.Text = "base price for console: $600";
-            //this.baseprice1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // backg
             // 
             this.backg.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.backg.Location = new System.Drawing.Point(299, 37);
             this.backg.Name = "backg";
-            this.backg.Size = new System.Drawing.Size(341, 333);
+            this.backg.Size = new System.Drawing.Size(341, 396);
             this.backg.TabIndex = 5;
             this.backg.Text = "        ";
-            //this.backg.Click += new System.EventHandler(this.backg_Click);
             // 
             // label1
             // 
@@ -187,7 +183,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(67, 20);
             this.textBox1.TabIndex = 11;
-            //this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -242,7 +237,7 @@
             // label7
             // 
             this.label7.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(-8, 196);
+            this.label7.Location = new System.Drawing.Point(-8, 210);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(307, 10);
             this.label7.TabIndex = 17;
@@ -264,7 +259,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label8.Location = new System.Drawing.Point(170, 215);
+            this.label8.Location = new System.Drawing.Point(191, 250);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(47, 13);
             this.label8.TabIndex = 19;
@@ -276,7 +271,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label9.Location = new System.Drawing.Point(170, 237);
+            this.label9.Location = new System.Drawing.Point(191, 272);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(24, 13);
             this.label9.TabIndex = 20;
@@ -288,12 +283,11 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label10.Location = new System.Drawing.Point(170, 260);
+            this.label10.Location = new System.Drawing.Point(191, 295);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(27, 13);
             this.label10.TabIndex = 21;
             this.label10.Text = "total";
-            //this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label11
             // 
@@ -301,12 +295,11 @@
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.White;
             this.label11.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label11.Location = new System.Drawing.Point(223, 215);
+            this.label11.Location = new System.Drawing.Point(244, 250);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(40, 13);
             this.label11.TabIndex = 22;
             this.label11.Text = "           ";
-            //this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label12
             // 
@@ -314,7 +307,7 @@
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.White;
             this.label12.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label12.Location = new System.Drawing.Point(223, 260);
+            this.label12.Location = new System.Drawing.Point(244, 295);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(40, 13);
             this.label12.TabIndex = 23;
@@ -326,7 +319,7 @@
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.White;
             this.label13.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label13.Location = new System.Drawing.Point(223, 237);
+            this.label13.Location = new System.Drawing.Point(244, 272);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(40, 13);
             this.label13.TabIndex = 24;
@@ -338,7 +331,7 @@
             this.tendered.AutoSize = true;
             this.tendered.BackColor = System.Drawing.Color.Transparent;
             this.tendered.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.tendered.Location = new System.Drawing.Point(170, 290);
+            this.tendered.Location = new System.Drawing.Point(179, 329);
             this.tendered.Name = "tendered";
             this.tendered.Size = new System.Drawing.Size(49, 13);
             this.tendered.TabIndex = 25;
@@ -346,15 +339,14 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(221, 287);
+            this.textBox4.Location = new System.Drawing.Point(226, 326);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(67, 20);
             this.textBox4.TabIndex = 26;
-            //this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(169, 313);
+            this.button1.Location = new System.Drawing.Point(178, 352);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(119, 22);
             this.button1.TabIndex = 27;
@@ -368,16 +360,15 @@
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label14.Location = new System.Drawing.Point(170, 338);
+            this.label14.Location = new System.Drawing.Point(179, 377);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(46, 13);
             this.label14.TabIndex = 28;
             this.label14.Text = "change:";
-            //this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(169, 354);
+            this.button2.Location = new System.Drawing.Point(178, 393);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(119, 22);
             this.button2.TabIndex = 29;
@@ -388,19 +379,28 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-13, 209);
+            this.pictureBox1.Location = new System.Drawing.Point(4, 238);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(176, 177);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(178, 393);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(119, 22);
+            this.button3.TabIndex = 31;
+            this.button3.Text = "print receipt";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(703, 379);
+            this.ClientSize = new System.Drawing.Size(703, 442);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label14);
@@ -431,9 +431,10 @@
             this.Controls.Add(this.computer);
             this.Controls.Add(this.console);
             this.Controls.Add(this.mouse);
+            this.Controls.Add(this.button3);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "calculator";
-            this.Text = "Form1";
-            //this.Load += new System.EventHandler(this.calculator_Load);
+            this.Text = "EBgames";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -472,6 +473,7 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button3;
     }
 }
 
